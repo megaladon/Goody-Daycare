@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 6ffca08d2b94b4344b6696ffad7302a2
+timeCreated: 1483129245
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: schoolBus0001
+    21300002: schoolBus0002
+    21300004: schoolBus0003
+    21300006: schoolBus0004
+    21300008: schoolBus0005
+    21300010: schoolBus0006
+    21300012: schoolBus0007
+    21300014: schoolBus0008
+    21300016: schoolBus0009
+    21300018: schoolBus0010
+    21300020: schoolBus0011
+    21300022: schoolBus0012
+    21300024: schoolBus0013
+    21300026: schoolBus0014
+    21300028: schoolBus0015
+    21300030: schoolBus0016
+    21300032: schoolBus0017
+    21300034: schoolBus0018
+    21300036: schoolBus0019
+    21300038: schoolBus0020
+    21300040: schoolBus0021
+    21300042: schoolBus0022
+    21300044: schoolBus0023
+    21300046: schoolBus0024
+    21300048: schoolBus0025
+    21300050: schoolBus0026
+    21300052: schoolBus0027
+    21300054: schoolBus0028
+    21300056: schoolBus0029
+    21300058: schoolBus0030
+    21300060: schoolBus0031
+    21300062: schoolBus0032
+    21300064: schoolBus0033
+    21300066: schoolBus0034
+    21300068: schoolBus0035
+    21300070: schoolBus0036
+    21300072: schoolBus0037
+    21300074: schoolBus0038
+    21300076: schoolBus0039
+    21300078: schoolBus0040
+    21300080: schoolBus0041
+    21300082: schoolBus0042
+    21300084: schoolBus0043
+    21300086: schoolBus0044
+    21300088: schoolBus0045
+    21300090: schoolBus0046
+    21300092: schoolBus0047
+    21300094: schoolBus0048
+    21300096: schoolBus0049
+    21300098: schoolBus0050
+    21300100: schoolBus0051
+    21300102: schoolBus0052
+    21300104: schoolBus0053
+    21300106: schoolBus0054
+    21300108: schoolBus0055
+    21300110: schoolBus0056
+    21300112: schoolBus0057
+    21300114: schoolBus0058
+    21300116: schoolBus0059
+    21300118: schoolBus0060
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: schoolBus0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 393
+        width: 385
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53503186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 385
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53797466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0003
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1373
+        width: 384
+        height: 158
+      alignment: 9
+      pivot: {x: 0.50130206, y: 0.5316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 712
+        width: 384
+        height: 159
+      alignment: 9
+      pivot: {x: 0.50130206, y: 0.5345912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 384
+        height: 157
+      alignment: 9
+      pivot: {x: 0.50130206, y: 0.54140127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0006
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1051
+        width: 384
+        height: 158
+      alignment: 9
+      pivot: {x: 0.50130206, y: 0.5316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0007
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 76
+        width: 385
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0008
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1038
+        width: 385
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0009
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1209
+        width: 384
+        height: 160
+      alignment: 9
+      pivot: {x: 0.4986979, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1036
+        width: 384
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4986979, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0011
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1371
+        width: 385
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 873
+        width: 385
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5279503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0013
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 713
+        width: 385
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53797466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0014
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 895
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0015
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 895
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0016
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 895
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0017
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 895
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0018
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1055
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0019
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1377
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0020
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1221
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0021
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1221
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0022
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1065
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0023
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 909
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0024
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 400
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0025
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 244
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0026
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 88
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0027
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 565
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0028
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 739
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0029
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 753
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0030
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 597
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0031
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 409
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0032
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 253
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0033
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 97
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0034
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 441
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0035
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 285
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0036
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 285
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0037
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 285
+        width: 385
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0038
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 556
+        width: 385
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5225806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 234
+        width: 385
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53503186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0040
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 878
+        width: 385
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53797466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0041
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 286
+        width: 385
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53594774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0042
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 721
+        width: 385
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52903223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0043
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1211
+        width: 385
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49367088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1200
+        width: 385
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48466256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1365
+        width: 385
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48795182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1877
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0047
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1877
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0048
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1877
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0049
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1877
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0050
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1877
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1705
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0052
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1705
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0053
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1705
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0054
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1705
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0055
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1705
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0056
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1533
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0057
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1533
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0058
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1533
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0059
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1533
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: schoolBus0060
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1533
+        width: 385
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

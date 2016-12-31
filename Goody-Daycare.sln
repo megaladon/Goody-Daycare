@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E6DA42BF-7F66-2BE1-96B7-FCA5369BFFC9}") = "Goody-Daycare", "Assembly-CSharp.csproj", "{0862B1D0-554A-5FFC-BE71-C4140283D265}"
+EndProject
+Project("{E6DA42BF-7F66-2BE1-96B7-FCA5369BFFC9}") = "Goody-Daycare", "Assembly-CSharp-Editor.csproj", "{98AC6E44-0E8B-A51C-1328-4891C735FC79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0862B1D0-554A-5FFC-BE71-C4140283D265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0862B1D0-554A-5FFC-BE71-C4140283D265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0862B1D0-554A-5FFC-BE71-C4140283D265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0862B1D0-554A-5FFC-BE71-C4140283D265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AC6E44-0E8B-A51C-1328-4891C735FC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AC6E44-0E8B-A51C-1328-4891C735FC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AC6E44-0E8B-A51C-1328-4891C735FC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AC6E44-0E8B-A51C-1328-4891C735FC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

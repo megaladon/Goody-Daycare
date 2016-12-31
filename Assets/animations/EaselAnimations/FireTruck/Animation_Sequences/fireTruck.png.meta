@@ -1,0 +1,1496 @@
+fileFormatVersion: 2
+guid: 12c37b04891f44f678371f23b78016ce
+timeCreated: 1482998802
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fireTruck0001
+    21300002: fireTruck0002
+    21300004: fireTruck0003
+    21300006: fireTruck0004
+    21300008: fireTruck0005
+    21300010: fireTruck0006
+    21300012: fireTruck0007
+    21300014: fireTruck0008
+    21300016: fireTruck0009
+    21300018: fireTruck0010
+    21300020: fireTruck0011
+    21300022: fireTruck0012
+    21300024: fireTruck0013
+    21300026: fireTruck0014
+    21300028: fireTruck0015
+    21300030: fireTruck0016
+    21300032: fireTruck0017
+    21300034: fireTruck0018
+    21300036: fireTruck0019
+    21300038: fireTruck0020
+    21300040: fireTruck0021
+    21300042: fireTruck0022
+    21300044: fireTruck0023
+    21300046: fireTruck0024
+    21300048: fireTruck0025
+    21300050: fireTruck0026
+    21300052: fireTruck0027
+    21300054: fireTruck0028
+    21300056: fireTruck0029
+    21300058: fireTruck0030
+    21300060: fireTruck0031
+    21300062: fireTruck0032
+    21300064: fireTruck0033
+    21300066: fireTruck0034
+    21300068: fireTruck0035
+    21300070: fireTruck0036
+    21300072: fireTruck0037
+    21300074: fireTruck0038
+    21300076: fireTruck0039
+    21300078: fireTruck0040
+    21300080: fireTruck0041
+    21300082: fireTruck0042
+    21300084: fireTruck0043
+    21300086: fireTruck0044
+    21300088: fireTruck0045
+    21300090: fireTruck0046
+    21300092: fireTruck0047
+    21300094: fireTruck0048
+    21300096: fireTruck0049
+    21300098: fireTruck0050
+    21300100: fireTruck0051
+    21300102: fireTruck0052
+    21300104: fireTruck0053
+    21300106: fireTruck0054
+    21300108: fireTruck0055
+    21300110: fireTruck0056
+    21300112: fireTruck0057
+    21300114: fireTruck0058
+    21300116: fireTruck0059
+    21300118: fireTruck0060
+    21300120: fireTruck0061
+    21300122: fireTruck0062
+    21300124: fireTruck0063
+    21300126: fireTruck0064
+    21300128: fireTruck0065
+    21300130: fireTruck0066
+    21300132: fireTruck0067
+    21300134: fireTruck0068
+    21300136: fireTruck0069
+    21300138: fireTruck0070
+    21300140: fireTruck0071
+    21300142: fireTruck0072
+    21300144: fireTruck0073
+    21300146: fireTruck0074
+    21300148: fireTruck0075
+    21300150: fireTruck0076
+    21300152: fireTruck0077
+    21300154: fireTruck0078
+    21300156: fireTruck0079
+    21300158: fireTruck0080
+    21300160: fireTruck0081
+    21300162: fireTruck0082
+    21300164: fireTruck0083
+    21300166: fireTruck0084
+    21300168: fireTruck0085
+    21300170: fireTruck0086
+    21300172: fireTruck0087
+    21300174: fireTruck0088
+    21300176: fireTruck0089
+    21300178: fireTruck0090
+    21300180: fireTruck0091
+    21300182: fireTruck0092
+    21300184: fireTruck0093
+    21300186: fireTruck0094
+    21300188: fireTruck0095
+    21300190: fireTruck0096
+    21300192: fireTruck0097
+    21300194: fireTruck0098
+    21300196: fireTruck0099
+    21300198: fireTruck0100
+    21300200: fireTruck0101
+    21300202: fireTruck0102
+    21300204: fireTruck0103
+    21300206: fireTruck0104
+    21300208: fireTruck0105
+    21300210: fireTruck0106
+    21300212: fireTruck0107
+    21300214: fireTruck0108
+    21300216: fireTruck0109
+    21300218: fireTruck0110
+    21300220: fireTruck0111
+    21300222: fireTruck0112
+    21300224: fireTruck0113
+    21300226: fireTruck0114
+    21300228: fireTruck0115
+    21300230: fireTruck0116
+    21300232: fireTruck0117
+    21300234: fireTruck0118
+    21300236: fireTruck0119
+    21300238: fireTruck0120
+    21300240: fireTruck0121
+    21300242: fireTruck0122
+    21300244: fireTruck0123
+    21300246: fireTruck0124
+    21300248: fireTruck0125
+    21300250: fireTruck0126
+    21300252: fireTruck0127
+    21300254: fireTruck0128
+    21300256: fireTruck0129
+    21300258: fireTruck0130
+    21300260: fireTruck0131
+    21300262: fireTruck0132
+    21300264: fireTruck0133
+    21300266: fireTruck0134
+    21300268: fireTruck0135
+    21300270: fireTruck0136
+    21300272: fireTruck0137
+    21300274: fireTruck0138
+    21300276: fireTruck0139
+    21300278: fireTruck0140
+    21300280: fireTruck0141
+    21300282: fireTruck0142
+    21300284: fireTruck0143
+    21300286: fireTruck0144
+    21300288: fireTruck0145
+    21300290: fireTruck0146
+    21300292: fireTruck0147
+    21300294: fireTruck0148
+    21300296: fireTruck0149
+    21300298: fireTruck0150
+    21300300: fireTruck0151
+    21300302: fireTruck0152
+    21300304: fireTruck0153
+    21300306: fireTruck0154
+    21300308: fireTruck0155
+    21300310: fireTruck0156
+    21300312: fireTruck0157
+    21300314: fireTruck0158
+    21300316: fireTruck0159
+    21300318: fireTruck0160
+    21300320: fireTruck0161
+    21300322: fireTruck0162
+    21300324: fireTruck0163
+    21300326: fireTruck0164
+    21300328: fireTruck0165
+    21300330: fireTruck0166
+    21300332: fireTruck0167
+    21300334: fireTruck0168
+    21300336: fireTruck0169
+    21300338: fireTruck0170
+    21300340: fireTruck0171
+    21300342: fireTruck0172
+    21300344: fireTruck0173
+    21300346: fireTruck0174
+    21300348: fireTruck0175
+    21300350: fireTruck0176
+    21300352: fireTruck0177
+    21300354: fireTruck0178
+    21300356: fireTruck0179
+    21300358: fireTruck0180
+    21300360: fireTruck0181
+    21300362: fireTruck0182
+    21300364: fireTruck0183
+    21300366: fireTruck0184
+    21300368: fireTruck0185
+    21300370: fireTruck0186
+    21300372: fireTruck0187
+    21300374: fireTruck0188
+    21300376: fireTruck0189
+    21300378: fireTruck0190
+    21300380: fireTruck0191
+    21300382: fireTruck0192
+    21300384: fireTruck0193
+    21300386: fireTruck0194
+    21300388: fireTruck0195
+    21300390: fireTruck0196
+    21300392: fireTruck0197
+    21300394: fireTruck0198
+    21300396: fireTruck0199
+    21300398: fireTruck0200
+    21300400: fireTruck0201
+    21300402: fireTruck0202
+    21300404: fireTruck0203
+    21300406: fireTruck0204
+    21300408: fireTruck0205
+    21300410: fireTruck0206
+    21300412: fireTruck0207
+    21300414: fireTruck0208
+    21300416: fireTruck0209
+    21300418: fireTruck0210
+    21300420: fireTruck0211
+    21300422: fireTruck0212
+    21300424: fireTruck0213
+    21300426: fireTruck0214
+    21300428: fireTruck0215
+    21300430: fireTruck0216
+    21300432: fireTruck0217
+    21300434: fireTruck0218
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireTruck0001
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 575
+        width: 227
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0002
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 31
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.56696427, y: 0.84375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0003
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 703
+        width: 228
+        height: 125
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0004
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 316
+        width: 227
+        height: 125
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0005
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 170
+        width: 224
+        height: 128
+      alignment: 9
+      pivot: {x: 0.56696427, y: 0.84375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0006
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 447
+        width: 227
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0007
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 691
+        width: 228
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0008
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 64
+        width: 226
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5619469, y: 0.864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0009
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 42
+        width: 224
+        height: 127
+      alignment: 9
+      pivot: {x: 0.56696427, y: 0.8503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0010
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 136
+        width: 226
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5619469, y: 0.7659575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0011
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 726
+        width: 229
+        height: 137
+      alignment: 9
+      pivot: {x: 0.55021834, y: 0.7883212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0012
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 292
+        width: 226
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5619469, y: 0.80597013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0013
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 300
+        width: 226
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5575221, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0014
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 191
+        width: 226
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5575221, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0015
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 443
+        width: 227
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0016
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 736
+        width: 228
+        height: 140
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.7714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0017
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 674
+        width: 228
+        height: 149
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.72483224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0018
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 690
+        width: 228
+        height: 153
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.7058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0019
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 845
+        width: 228
+        height: 154
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.7012987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0020
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 518
+        width: 227
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.7012987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0021
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 533
+        width: 227
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.6967742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0022
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 428
+        width: 227
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.75524473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 274
+        width: 227
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.7297297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0024
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 533
+        width: 227
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.6923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0025
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 275
+        width: 226
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5619469, y: 0.739726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 228
+        height: 141
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.7659575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0027
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 863
+        width: 228
+        height: 141
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.7659575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0028
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 279
+        width: 227
+        height: 142
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.7605634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0029
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 578
+        width: 228
+        height: 146
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.739726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0030
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 423
+        width: 227
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.7058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0031
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 227
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.7152318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0032
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 573
+        width: 227
+        height: 158
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.6835443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0033
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 111
+        width: 226
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5575221, y: 0.6708075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0034
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 112
+        width: 226
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5575221, y: 0.6708075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0035
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 571
+        width: 227
+        height: 163
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.6625767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0036
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 865
+        width: 238
+        height: 164
+      alignment: 9
+      pivot: {x: 0.53361344, y: 0.6585366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0037
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 819
+        width: 228
+        height: 189
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0038
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 825
+        width: 230
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5521739, y: 0.60674155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0039
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1031
+        width: 243
+        height: 176
+      alignment: 9
+      pivot: {x: 0.52263373, y: 0.6136364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0040
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1001
+        width: 233
+        height: 194
+      alignment: 9
+      pivot: {x: 0.54077256, y: 0.556701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0041
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1032
+        width: 248
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.6101695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0042
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 850
+        width: 237
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5316456, y: 0.627907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0043
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1253
+        width: 252
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0044
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1005
+        width: 240
+        height: 190
+      alignment: 9
+      pivot: {x: 0.525, y: 0.56842107}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0045
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1064
+        width: 249
+        height: 187
+      alignment: 9
+      pivot: {x: 0.51004016, y: 0.5775401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1024
+        width: 243
+        height: 185
+      alignment: 9
+      pivot: {x: 0.52263373, y: 0.5837838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0047
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1209
+        width: 244
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5204918, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0048
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1211
+        width: 249
+        height: 189
+      alignment: 9
+      pivot: {x: 0.51004016, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0049
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1211
+        width: 245
+        height: 182
+      alignment: 9
+      pivot: {x: 0.51836735, y: 0.5934066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0050
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1435
+        width: 252
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5966851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0051
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 878
+        width: 246
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0052
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1010
+        width: 248
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.5775401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0053
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 830
+        width: 245
+        height: 200
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0054
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1006
+        width: 248
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.5482234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0055
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1197
+        width: 249
+        height: 204
+      alignment: 9
+      pivot: {x: 0.51004016, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0056
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1205
+        width: 251
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5059761, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0057
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1197
+        width: 250
+        height: 206
+      alignment: 9
+      pivot: {x: 0.508, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0058
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1199
+        width: 251
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5059761, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0059
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1838
+        width: 254
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5167464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0060
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1407
+        width: 252
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5167464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0061
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1413
+        width: 252
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0062
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1618
+        width: 253
+        height: 211
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.51184833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0063
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1618
+        width: 253
+        height: 211
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.51184833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0064
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1403
+        width: 253
+        height: 209
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5167464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0065
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1836
+        width: 254
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51184833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0066
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1836
+        width: 254
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51184833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0067
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1614
+        width: 253
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.5023256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0068
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1405
+        width: 253
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.51184833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0069
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1620
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0070
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1395
+        width: 252
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0071
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1395
+        width: 252
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0072
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1618
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0073
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1618
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0074
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1402
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0075
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1831
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0076
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1831
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0077
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1831
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0078
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1831
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0079
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1831
+        width: 254
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0080
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1613
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0081
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1613
+        width: 253
+        height: 216
+      alignment: 9
+      pivot: {x: 0.49802372, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0082
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 226
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5575221, y: 0.5869565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0083
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 319
+        width: 227
+        height: 126
+      alignment: 9
+      pivot: {x: 0.55947137, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0084
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 229
+        height: 128
+      alignment: 9
+      pivot: {x: 0.55458516, y: 0.84375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0085
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 404
+        width: 227
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5550661, y: 0.8503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0086
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 41
+        width: 225
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5511111, y: 0.8503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0087
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 171
+        width: 225
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5511111, y: 0.8503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0088
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 733
+        width: 228
+        height: 128
+      alignment: 9
+      pivot: {x: 0.55701756, y: 0.84375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0089
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 5
+        width: 226
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5619469, y: 0.8372093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: fireTruck0090
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 161
+        width: 224
+        height: 129
+      alignment: 9
+      pivot: {x: 0.56696427, y: 0.8372093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

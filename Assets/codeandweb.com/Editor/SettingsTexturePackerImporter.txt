@@ -1,0 +1,14 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/animations/EaselAnimations/FireTruck/Animation_Sequences/fireTruck.tpsheet
+- Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/animations/EaselAnimations/FireTruck/Animation_Sequences/fireTruck.png
+- Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png

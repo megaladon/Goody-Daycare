@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BabyFunGame.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BabyFunGame.cs" Line="20" Column="22" />
+      <File FileName="Assets/Scripts/TitleAnimator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AnimationEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BubbleBehavior.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ShapesGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BabyFunAnimation.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
