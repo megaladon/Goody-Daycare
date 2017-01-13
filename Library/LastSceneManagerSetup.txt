@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/x-ray.unity
+- path: Assets/_Scenes/02 Home.unity
   isLoaded: 1
   isActive: 1

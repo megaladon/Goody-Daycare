@@ -78,3 +78,14 @@
 /Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEditor.PlaymodeTestsRunner.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEditor.Analytics.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEditor.HoloLens.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEditor.VR.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Temp/bin/Debug/TexturePackerImporter.dll

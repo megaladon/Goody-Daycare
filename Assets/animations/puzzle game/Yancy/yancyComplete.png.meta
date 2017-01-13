@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 8063a741baa7642b486e22ffee3cf628
+timeCreated: 1484282576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Yancy_PuzzleComplete0008
+    21300002: Yancy_PuzzleComplete0009
+    21300004: Yancy_PuzzleComplete0010
+    21300006: Yancy_PuzzleComplete0011
+    21300008: Yancy_PuzzleComplete0012
+    21300010: Yancy_PuzzleComplete0013
+    21300012: Yancy_PuzzleComplete0014
+    21300014: Yancy_PuzzleComplete0015
+    21300016: Yancy_PuzzleComplete0016
+    21300018: Yancy_PuzzleComplete0017
+    21300020: Yancy_PuzzleComplete0018
+    21300022: Yancy_PuzzleComplete0019
+    21300024: Yancy_PuzzleComplete0020
+    21300026: Yancy_PuzzleComplete0021
+    21300028: Yancy_PuzzleComplete0022
+    21300030: Yancy_PuzzleComplete0023
+    21300032: Yancy_PuzzleComplete0024
+    21300034: Yancy_PuzzleComplete0025
+    21300036: Yancy_PuzzleComplete0026
+    21300038: Yancy_PuzzleComplete0027
+    21300040: Yancy_PuzzleComplete0028
+    21300042: Yancy_PuzzleComplete0029
+    21300044: Yancy_PuzzleComplete0030
+    21300046: Yancy_PuzzleComplete0031
+    21300048: Yancy_PuzzleComplete0032
+    21300050: Yancy_PuzzleComplete0033
+    21300052: Yancy_PuzzleComplete0034
+    21300054: Yancy_PuzzleComplete0035
+    21300056: Yancy_PuzzleComplete0036
+    21300058: Yancy_PuzzleComplete0037
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0008
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1644
+        width: 206
+        height: 403
+      alignment: 9
+      pivot: {x: 0.54611653, y: 0.51488835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0009
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 848
+        width: 224
+        height: 389
+      alignment: 9
+      pivot: {x: 0.52008927, y: 0.52570695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0010
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1666
+        width: 220
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5159091, y: 0.54461944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0011
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1666
+        width: 220
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5159091, y: 0.54461944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0012
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1259
+        width: 220
+        height: 383
+      alignment: 9
+      pivot: {x: 0.5159091, y: 0.54177547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0013
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 59
+        width: 232
+        height: 379
+      alignment: 9
+      pivot: {x: 0.55818963, y: 0.53957784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0014
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 440
+        width: 226
+        height: 389
+      alignment: 9
+      pivot: {x: 0.5243363, y: 0.52570695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0015
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 17
+        width: 219
+        height: 401
+      alignment: 9
+      pivot: {x: 0.55479455, y: 0.5099751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0016
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1239
+        width: 211
+        height: 403
+      alignment: 9
+      pivot: {x: 0.53317535, y: 0.51488835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0017
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1644
+        width: 233
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5214592, y: 0.51488835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0018
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1233
+        width: 238
+        height: 406
+      alignment: 9
+      pivot: {x: 0.5021008, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0019
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1641
+        width: 238
+        height: 406
+      alignment: 9
+      pivot: {x: 0.5021008, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0020
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 823
+        width: 252
+        height: 406
+      alignment: 9
+      pivot: {x: 0.5297619, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 231
+        height: 407
+      alignment: 9
+      pivot: {x: 0.508658, y: 0.512285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0022
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1236
+        width: 240
+        height: 403
+      alignment: 9
+      pivot: {x: 0.51458335, y: 0.50744414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0023
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 415
+        width: 224
+        height: 406
+      alignment: 9
+      pivot: {x: 0.52008927, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 822
+        width: 236
+        height: 407
+      alignment: 9
+      pivot: {x: 0.51059324, y: 0.512285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0025
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 9
+        width: 237
+        height: 404
+      alignment: 9
+      pivot: {x: 0.52109706, y: 0.5160891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 236
+        height: 407
+      alignment: 9
+      pivot: {x: 0.5148305, y: 0.512285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0027
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 828
+        width: 242
+        height: 403
+      alignment: 9
+      pivot: {x: 0.53099173, y: 0.50744414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1231
+        width: 237
+        height: 407
+      alignment: 9
+      pivot: {x: 0.48734176, y: 0.512285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1640
+        width: 259
+        height: 407
+      alignment: 9
+      pivot: {x: 0.51158303, y: 0.512285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0030
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 415
+        width: 237
+        height: 406
+      alignment: 9
+      pivot: {x: 0.48734176, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0031
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1232
+        width: 249
+        height: 406
+      alignment: 9
+      pivot: {x: 0.47188756, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0032
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 5
+        width: 254
+        height: 406
+      alignment: 9
+      pivot: {x: 0.54133856, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0033
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 420
+        width: 255
+        height: 403
+      alignment: 9
+      pivot: {x: 0.48431373, y: 0.50744414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0034
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1641
+        width: 249
+        height: 406
+      alignment: 9
+      pivot: {x: 0.53614455, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0035
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 831
+        width: 222
+        height: 403
+      alignment: 9
+      pivot: {x: 0.5382883, y: 0.51488835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0036
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 825
+        width: 211
+        height: 406
+      alignment: 9
+      pivot: {x: 0.53317535, y: 0.5110837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_PuzzleComplete0037
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 15
+        width: 206
+        height: 403
+      alignment: 9
+      pivot: {x: 0.54611653, y: 0.51488835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

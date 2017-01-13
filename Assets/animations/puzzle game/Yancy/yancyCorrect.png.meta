@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 1a326d1a0a812469e971c3d50612bf0d
+timeCreated: 1484282511
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Yancy_CorrectAnswer0008
+    21300002: Yancy_CorrectAnswer0009
+    21300004: Yancy_CorrectAnswer0010
+    21300006: Yancy_CorrectAnswer0011
+    21300008: Yancy_CorrectAnswer0012
+    21300010: Yancy_CorrectAnswer0013
+    21300012: Yancy_CorrectAnswer0014
+    21300014: Yancy_CorrectAnswer0015
+    21300016: Yancy_CorrectAnswer0016
+    21300018: Yancy_CorrectAnswer0017
+    21300020: Yancy_CorrectAnswer0018
+    21300022: Yancy_CorrectAnswer0019
+    21300024: Yancy_CorrectAnswer0020
+    21300026: Yancy_CorrectAnswer0021
+    21300028: Yancy_CorrectAnswer0022
+    21300030: Yancy_CorrectAnswer0023
+    21300032: Yancy_CorrectAnswer0024
+    21300034: Yancy_CorrectAnswer0025
+    21300036: Yancy_CorrectAnswer0026
+    21300038: Yancy_CorrectAnswer0027
+    21300040: Yancy_CorrectAnswer0028
+    21300042: Yancy_CorrectAnswer0029
+    21300044: Yancy_CorrectAnswer0030
+    21300046: Yancy_CorrectAnswer0031
+    21300048: Yancy_CorrectAnswer0032
+    21300050: Yancy_CorrectAnswer0033
+    21300052: Yancy_CorrectAnswer0034
+    21300054: Yancy_CorrectAnswer0035
+    21300056: Yancy_CorrectAnswer0036
+    21300058: Yancy_CorrectAnswer0037
+    21300060: Yancy_CorrectAnswer0038
+    21300062: Yancy_CorrectAnswer0039
+    21300064: Yancy_CorrectAnswer0040
+    21300066: Yancy_CorrectAnswer0041
+    21300068: Yancy_CorrectAnswer0042
+    21300070: Yancy_CorrectAnswer0043
+    21300072: Yancy_CorrectAnswer0044
+    21300074: Yancy_CorrectAnswer0045
+    21300076: Yancy_CorrectAnswer0046
+    21300078: Yancy_CorrectAnswer0047
+    21300080: Yancy_CorrectAnswer0048
+    21300082: Yancy_CorrectAnswer0049
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1235
+        width: 229
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.4802469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0009
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 850
+        width: 211
+        height: 395
+      alignment: 9
+      pivot: {x: 0.50473934, y: 0.5050633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0010
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 66
+        width: 235
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5170213, y: 0.5291777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0011
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 66
+        width: 235
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5170213, y: 0.5291777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0012
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 66
+        width: 235
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5170213, y: 0.5291777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0013
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 472
+        width: 235
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5170213, y: 0.5305851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0014
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1659
+        width: 230
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5282609, y: 0.51417524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0015
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1255
+        width: 220
+        height: 391
+      alignment: 9
+      pivot: {x: 0.5159091, y: 0.5102302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1642
+        width: 235
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5595745, y: 0.4925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0017
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0018
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 840
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0019
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 439
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0020
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 840
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0021
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1247
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0022
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0023
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 38
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0024
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 439
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0025
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 846
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0026
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1247
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0027
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0028
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 38
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0029
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 445
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0030
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1241
+        width: 230
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5543478, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0031
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 846
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0032
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1247
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0033
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0034
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 44
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0035
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 445
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0036
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 846
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0037
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 232
+        height: 399
+      alignment: 9
+      pivot: {x: 0.55818963, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0038
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1247
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0039
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0040
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 44
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0041
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 445
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0042
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 846
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 427
+        width: 240
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5729167, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0044
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 26
+        width: 232
+        height: 399
+      alignment: 9
+      pivot: {x: 0.55818963, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0045
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1247
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0046
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1648
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 229
+        height: 405
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.4802469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0048
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 44
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Yancy_CorrectAnswer0049
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 445
+        width: 229
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5524017, y: 0.48746866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
