@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FullPuzzleManager.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFClipsCreator.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomResourceLoader.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomStaticResourceLoader.cs" />
@@ -75,11 +74,14 @@
      <Compile Include="Assets\Scripts\BubblesGame.cs" />
      <Compile Include="Assets\Scripts\EaselIcon.cs" />
      <Compile Include="Assets\Scripts\FadeIn.cs" />
+     <Compile Include="Assets\Scripts\FullPuzzleManager.cs" />
      <Compile Include="Assets\Scripts\Kid.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MusicManager.cs" />
      <Compile Include="Assets\Scripts\OptionsController.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\Scripts\PuzzleGame.cs" />
+     <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
      <Compile Include="Assets\Scripts\Radio.cs" />
      <Compile Include="Assets\Scripts\ShapeBehavior.cs" />
      <Compile Include="Assets\Scripts\ShapesGame.cs" />
