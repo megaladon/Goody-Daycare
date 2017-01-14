@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FullPuzzleManager.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFClipsCreator.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomResourceLoader.cs" />
      <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomStaticResourceLoader.cs" />
@@ -95,9 +96,6 @@
      <None Include="Assets\GAF\Resources\Shaders\GAFMask.shader" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
      <None Include="Assets\GAF\Docs\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -112,9 +110,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
