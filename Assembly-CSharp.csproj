@@ -67,6 +67,7 @@
      <Compile Include="Assets\GAF\Scripts\Objects\GAFObjectsManager.cs" />
      <Compile Include="Assets\GAF\Scripts\Objects\Interfaces\GAFBakedObjectsManagerInternal.cs" />
      <Compile Include="Assets\GAF\Scripts\Objects\Interfaces\GAFObjectsManagerInternal.cs" />
+     <Compile Include="Assets\PuzzleHotSpot.cs" />
      <Compile Include="Assets\Scripts\AnimationEvents.cs" />
      <Compile Include="Assets\Scripts\BabyFunAnimation.cs" />
      <Compile Include="Assets\Scripts\BabyFunGame.cs" />
