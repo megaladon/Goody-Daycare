@@ -8,6 +8,8 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject puzzleOutLine;
 	public float puzzleOpacity;
 	public GameObject[] hotSpots;
+	public GameObject[] puzzlePieces;
+	public GameObject[] offPositions;
 
 	bool isDragging = false;
 	GameObject currentPuzzlePiece;
@@ -20,6 +22,8 @@ public class PuzzleGame : MonoBehaviour
 		// Dim the fullPuzzle background
 		Renderer fullPuzzleRenderer = fullPuzzle.GetComponent<Renderer> ();
 		fullPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
+
+		Invoke ("BreakUpPuzzle", 2f);
 	}
 	
 	// Update is called once per frame
@@ -32,6 +36,15 @@ public class PuzzleGame : MonoBehaviour
 		}
 	}
 
+	void BreakUpPuzzle ()
+	{
+		for (int i = 0; i < offPositions.Length; i++) {
+			puzzlePieces [i].GetComponent<PuzzlePiece> ().SetOffPosition (offPositions [i].GetComponent<Transform> ().position);
+			puzzlePieces [i].GetComponent<PuzzlePiece> ().ResetPiece ();
+		}
+	}
+
+
 	public void startDrag (GameObject puzzlePiece)
 	{
 		isDragging = true;
@@ -43,18 +56,22 @@ public class PuzzleGame : MonoBehaviour
 	{
 		isDragging = false;
 		// Reset puzzle piece to default z
-		Vector3 pos = currentPuzzlePiece.GetComponent<Transform> ().position;
-		pos.z = currentPuzzlePieceStart;
-		currentPuzzlePiece.GetComponent<Transform> ().position = pos;
+		//resetPuzzlePieceZ (currentPuzzlePiece, currentPuzzlePieceStart);
 		drop ();
 
 		currentPuzzlePiece = null;
 	}
 
+
+	void resetPuzzlePieceZ (GameObject puzzlePiece, float zPos)
+	{
+		Vector3 pos = puzzlePiece.GetComponent<Transform> ().position;
+		pos.z = zPos;
+		puzzlePiece.GetComponent<Transform> ().position = pos;
+	}
+
 	private void drop ()
 	{
-
-
 		GameObject hotSpot = null;
 		// Find the hot spot for this puzzle piece
 		for (int i = 0; i < hotSpots.Length; i++) {
@@ -72,6 +89,9 @@ public class PuzzleGame : MonoBehaviour
 
 			if (distance <= 0.767) {
 				currentPuzzlePiece.GetComponent<PuzzlePiece> ().SnapCorrect ();
+				resetPuzzlePieceZ (currentPuzzlePiece, currentPuzzlePieceStart);
+			} else {
+				resetWrongPiece ();
 			}
 
 			Debug.Log ("Check Distance " + distance + " hotSpot=" + hotSpot.GetComponent<Transform> ().position + " puzzlePiece=" + currentPuzzlePiece.GetComponent<Transform> ().position);
@@ -86,7 +106,7 @@ public class PuzzleGame : MonoBehaviour
 
 	private void resetWrongPiece ()
 	{
-		
+		currentPuzzlePiece.GetComponent<PuzzlePiece> ().ResetPiece ();
 	}
 
 	/*
