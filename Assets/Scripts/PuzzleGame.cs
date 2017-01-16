@@ -11,6 +11,9 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject[] puzzlePieces;
 	public GameObject[] offPositions;
 
+	public GameObject[] beachPieces;
+	public GameObject[] underwaterPieces;
+
 	bool isDragging = false;
 	GameObject currentPuzzlePiece;
 	float currentPuzzlePieceStart = -2;
@@ -22,6 +25,11 @@ public class PuzzleGame : MonoBehaviour
 		// Dim the fullPuzzle background
 		Renderer fullPuzzleRenderer = fullPuzzle.GetComponent<Renderer> ();
 		fullPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
+
+		for (int i = 0; i < offPositions.Length; i++) {
+
+			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (beachPieces [i]);
+		}
 
 		Invoke ("BreakUpPuzzle", 2f);
 	}

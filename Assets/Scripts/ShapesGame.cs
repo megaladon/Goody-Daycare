@@ -88,7 +88,7 @@ public class ShapesGame : MonoBehaviour
 			newShapes.Add (tempShapes [i]);
 		}
 
-		// Randomize ane place the shapes
+		// Randomize and place the shapes
 		shapePositions = ShuffleList (shapePositions);
 		for (int j = 0; j < newShapes.Count; j++) {
 			StartCoroutine (OnPlaceShape (newShapes, j, Random.Range (0.4f, 1.2f)));

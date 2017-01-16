@@ -11,6 +11,8 @@ public class PuzzlePiece : MonoBehaviour
 {
 	public PuzzleGame puzzleGame;
 	public int positionNumber;
+
+	private GameObject puzzlePiece;
 	private Vector3 correctPosition = new Vector3 (0, 0, 0);
 	private Vector3 offPosition = new Vector3 (0, 0, 0);
 	private bool isResetting = false;
@@ -20,7 +22,21 @@ public class PuzzlePiece : MonoBehaviour
 	{
 		correctPosition = gameObject.GetComponent<Transform> ().position;
 	}
-	
+
+	public void InitPiece (GameObject piece)
+	{
+		puzzlePiece = piece;
+	}
+
+
+	void LateUpdate ()
+	{
+		Animator anim = GetComponent<Animator> ();
+		if (anim) {
+			anim.GetComponent<SpriteRenderer> ().sprite = puzzlePiece.GetComponent<SpriteRenderer> ().sprite;
+		}
+	}
+
 	// Update is called once per frame
 	void Update ()
 	{
@@ -61,6 +77,7 @@ public class PuzzlePiece : MonoBehaviour
 
 	public void ResetPiece ()
 	{
+		Debug.Log ("ResetPiece");
 		isResetting = true;
 		Animator anim = GetComponentInChildren<Animator> ();
 		if (anim) {
