@@ -41,7 +41,7 @@ public class PuzzlePiece : MonoBehaviour
 	void Update ()
 	{
 		if (isResetting) {
-			float step = 10 * Time.deltaTime;
+			float step = 15 * Time.deltaTime;
 			transform.position = Vector3.MoveTowards (transform.position, offPosition, step);	
 		}
 

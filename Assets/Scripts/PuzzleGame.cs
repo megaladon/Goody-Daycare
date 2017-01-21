@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PuzzleGame : MonoBehaviour
 {
+	public GameObject yancy;
 	public GameObject fullPuzzle;
+	public GameObject[] puzzles;
 	public GameObject puzzleOutLine;
 	public float puzzleOpacity;
 	public GameObject[] hotSpots;
@@ -14,21 +16,45 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject[] beachPieces;
 	public GameObject[] underwaterPieces;
 
+	private int puzzleNumber = 1;
+	private List<GameObject> currentPuzzlePieces;
+
+
+
 	bool isDragging = false;
-	GameObject currentPuzzlePiece;
+	private GameObject currentPuzzlePiece;
 	float currentPuzzlePieceStart = -2;
 	float draggingZ = 2f;
 
 	// Use this for initialization
 	void Start ()
 	{
+		fullPuzzle.GetComponent<SpriteRenderer> ().sprite = puzzles [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
+
 		// Dim the fullPuzzle background
 		Renderer fullPuzzleRenderer = fullPuzzle.GetComponent<Renderer> ();
 		fullPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
 
-		for (int i = 0; i < offPositions.Length; i++) {
+		GameObject[] pieceSet = beachPieces;
 
-			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (beachPieces [i]);
+		switch (puzzleNumber) {
+		case 0:
+			pieceSet = beachPieces;
+			break;
+		case 1:
+			pieceSet = underwaterPieces;
+			break;
+		default:
+			break;
+		}
+
+		currentPuzzlePieces = new List<GameObject> ();
+		for (int j = 0; j < puzzlePieces.Length; j++) {
+			currentPuzzlePieces.Add (puzzlePieces [j]);
+		}
+
+		for (int i = 0; i < offPositions.Length; i++) {
+			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (pieceSet [i]);
 		}
 
 		Invoke ("BreakUpPuzzle", 2f);
@@ -114,6 +140,10 @@ public class PuzzleGame : MonoBehaviour
 
 	private void resetWrongPiece ()
 	{
+		Animator anim = yancy.GetComponentInChildren<Animator> ();
+		Debug.Log ("resetWrongPiece " + anim);
+		if (anim)
+			anim.SetTrigger ("waAnimation");
 		currentPuzzlePiece.GetComponent<PuzzlePiece> ().ResetPiece ();
 	}
 

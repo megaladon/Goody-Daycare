@@ -46,28 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GAF\Examples\Scripts\GAFClipsCreator.cs" />
-     <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomResourceLoader.cs" />
-     <Compile Include="Assets\GAF\Examples\Scripts\GAFCustomStaticResourceLoader.cs" />
-     <Compile Include="Assets\GAF\Examples\Scripts\GAFLoadResourceFromBundle.cs" />
-     <Compile Include="Assets\GAF\Examples\Scripts\GAFSceneController.cs" />
-     <Compile Include="Assets\GAF\Scripts\Asset\GAFAnimationAsset.cs" />
-     <Compile Include="Assets\GAF\Scripts\Asset\GAFTexturesResource.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\GAFAnimator.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\GAFBakedAnimator.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\GAFBakedMovieClip.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\GAFCustomDelegateCreator.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\GAFMovieClip.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\Interfaces\GAFAnimatorInternal.cs" />
-     <Compile Include="Assets\GAF\Scripts\Core\Interfaces\GAFMovieClipInternal.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObject.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObjectController.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObjectsManager.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\GAFObject.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\GAFObjectsManager.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\Interfaces\GAFBakedObjectsManagerInternal.cs" />
-     <Compile Include="Assets\GAF\Scripts\Objects\Interfaces\GAFObjectsManagerInternal.cs" />
-     <Compile Include="Assets\PuzzleHotSpot.cs" />
      <Compile Include="Assets\Scripts\AnimationEvents.cs" />
      <Compile Include="Assets\Scripts\BabyFunAnimation.cs" />
      <Compile Include="Assets\Scripts\BabyFunGame.cs" />
@@ -82,26 +60,14 @@
      <Compile Include="Assets\Scripts\OptionsController.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\Scripts\PuzzleGame.cs" />
+     <Compile Include="Assets\Scripts\PuzzleHotSpot.cs" />
      <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
      <Compile Include="Assets\Scripts\Radio.cs" />
      <Compile Include="Assets\Scripts\ShapeBehavior.cs" />
      <Compile Include="Assets\Scripts\ShapesGame.cs" />
      <Compile Include="Assets\Scripts\TitleAnimator.cs" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFShaderBase.cginc" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFObjectsGroup.shader" />
-     <None Include="Assets\GAF\Docs\What&apos;s new.txt" />
      <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFBlur.shader" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFFilters.cginc" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFMaskReset.shader" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFFilteredObject.shader" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFGlow.shader" />
-     <None Include="Assets\GAF\Resources\Shaders\GAFMask.shader" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
-     <None Include="Assets\GAF\Docs\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -117,20 +83,8 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="GAF">
- <HintPath>/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Assets/GAF/Plugins/GAF.dll</HintPath>
- </Reference>
- <Reference Include="Ionic.Zip.Reduced">
- <HintPath>/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Assets/GAF/Plugins/Ionic.Zip.Reduced.dll</HintPath>
- </Reference>
- <Reference Include="MiniJson">
- <HintPath>/Users/keithgoodman/A_workArea/Repos/Goody-Daycare/Assets/GAF/Plugins/MiniJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
