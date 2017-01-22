@@ -5,6 +5,7 @@ tpsheetFileNames:
 - Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.tpsheet
 - Assets/animations/puzzle game/puzzles/beach/Animation_Sequences/puzzle_beach.tpsheet
 - Assets/animations/puzzle game/puzzles/underwater/Animation_Sequences/puzzle_underwater.tpsheet
+- Assets/animations/puzzle game/puzzles/underwater/puzzle_underwater.tpsheet
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyComplete.tpsheet
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyCorrect.tpsheet
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyWrong.tpsheet
@@ -15,12 +16,14 @@ textureFileNames:
 - Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.png
 - Assets/animations/puzzle game/puzzles/beach/Animation_Sequences/puzzle_beach.png
 - Assets/animations/puzzle game/puzzles/underwater/Animation_Sequences/puzzle_underwater.png
+- Assets/animations/puzzle game/puzzles/underwater/puzzle_underwater.png
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyComplete.png
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyCorrect.png
 - Assets/animations/puzzle game/Yancy/Animation_Sequences/yancyWrong.png
 - Assets/animations/shapes game/Shapes/shapes.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

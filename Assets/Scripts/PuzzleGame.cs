@@ -7,7 +7,8 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject yancy;
 	public GameObject fullPuzzle;
 	public GameObject[] puzzles;
-	public GameObject puzzleOutLine;
+	public GameObject[] puzzleOutLines;
+	public GameObject puzzleOutlineHolder;
 	public float puzzleOpacity;
 	public GameObject[] hotSpots;
 	public GameObject[] puzzlePieces;
@@ -30,6 +31,8 @@ public class PuzzleGame : MonoBehaviour
 	void Start ()
 	{
 		fullPuzzle.GetComponent<SpriteRenderer> ().sprite = puzzles [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
+
+		puzzleOutlineHolder.GetComponent<SpriteRenderer> ().sprite = puzzleOutLines [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
 
 		// Dim the fullPuzzle background
 		Renderer fullPuzzleRenderer = fullPuzzle.GetComponent<Renderer> ();
@@ -122,8 +125,7 @@ public class PuzzleGame : MonoBehaviour
 			float distance = Vector2.Distance (hotSpot.GetComponent<Transform> ().position, currentPuzzlePiece.GetComponent<Transform> ().position);
 
 			if (distance <= 0.767) {
-				currentPuzzlePiece.GetComponent<PuzzlePiece> ().SnapCorrect ();
-				resetPuzzlePieceZ (currentPuzzlePiece, currentPuzzlePieceStart);
+				placePuzzlePiece ();
 			} else {
 				resetWrongPiece ();
 			}
@@ -135,15 +137,21 @@ public class PuzzleGame : MonoBehaviour
 
 	private void placePuzzlePiece ()
 	{
-		
+		Animator anim = yancy.GetComponentInChildren<Animator> ();
+		if (anim) {
+			anim.SetTrigger ("caAnimation");
+		}
+		currentPuzzlePiece.GetComponent<PuzzlePiece> ().SnapCorrect ();
+		resetPuzzlePieceZ (currentPuzzlePiece, currentPuzzlePieceStart);
 	}
 
 	private void resetWrongPiece ()
 	{
 		Animator anim = yancy.GetComponentInChildren<Animator> ();
-		Debug.Log ("resetWrongPiece " + anim);
-		if (anim)
+		if (anim) {
 			anim.SetTrigger ("waAnimation");
+		}
+			
 		currentPuzzlePiece.GetComponent<PuzzlePiece> ().ResetPiece ();
 	}
 
