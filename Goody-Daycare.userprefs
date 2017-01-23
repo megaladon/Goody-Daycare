@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PuzzleGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PuzzlePiece.cs">
     <Files>
       <File FileName="Assets/Scripts/FullPuzzleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PuzzlePiece.cs" Line="44" Column="19" />
-      <File FileName="Assets/Scripts/PuzzleGame.cs" Line="146" Column="33" />
-      <File FileName="Assets/Scripts/ShapesGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PuzzlePiece.cs" Line="40" Column="1" />
+      <File FileName="Assets/Scripts/PuzzleGame.cs" Line="74" Column="1" />
+      <File FileName="Assets/Scripts/ShapesGame.cs" Line="98" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

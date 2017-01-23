@@ -5,13 +5,15 @@ using UnityEngine;
 public class PuzzleGame : MonoBehaviour
 {
 	public GameObject yancy;
-	public GameObject fullPuzzle;
-	public GameObject[] puzzles;
-	public GameObject[] puzzleOutLines;
-	public GameObject puzzleOutlineHolder;
+	private GameObject completedPuzzle;
+	//public GameObject[] puzzles;
+	private GameObject puzzleOutLine;
+	//public GameObject puzzleOutlineHolder;
 	public float puzzleOpacity;
+	public GameObject[] fullPuzzles;
+
 	public GameObject[] hotSpots;
-	public GameObject[] puzzlePieces;
+	private GameObject[] puzzlePieces;
 	public GameObject[] offPositions;
 
 	public GameObject[] beachPieces;
@@ -30,15 +32,22 @@ public class PuzzleGame : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		fullPuzzle.GetComponent<SpriteRenderer> ().sprite = puzzles [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
+		GameObject thisPuzzle = Instantiate (fullPuzzles [puzzleNumber], new Vector3 (6.25f, 2.82f, -2), Quaternion.identity) as GameObject;
 
-		puzzleOutlineHolder.GetComponent<SpriteRenderer> ().sprite = puzzleOutLines [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
+		puzzlePieces = GameObject.FindGameObjectsWithTag ("PuzzlePiece");
+		completedPuzzle = GameObject.FindGameObjectWithTag ("CompletedPuzzle");
+		puzzleOutLine = GameObject.FindGameObjectWithTag ("PuzzleOutline");
 
-		// Dim the fullPuzzle background
-		Renderer fullPuzzleRenderer = fullPuzzle.GetComponent<Renderer> ();
-		fullPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
+		//completedPuzzle.GetComponent<SpriteRenderer> ().sprite = puzzles [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
 
-		GameObject[] pieceSet = beachPieces;
+		//puzzleOutlineHolder.GetComponent<SpriteRenderer> ().sprite = puzzleOutLines [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
+
+		// Dim the completedPuzzle background
+		Renderer completedPuzzleRenderer = completedPuzzle.GetComponent<Renderer> ();
+		completedPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
+
+		GameObject[] pieceSet;// = beachPieces;
+
 
 		switch (puzzleNumber) {
 		case 0:
@@ -48,16 +57,22 @@ public class PuzzleGame : MonoBehaviour
 			pieceSet = underwaterPieces;
 			break;
 		default:
+			pieceSet = beachPieces;
 			break;
 		}
+
 
 		currentPuzzlePieces = new List<GameObject> ();
 		for (int j = 0; j < puzzlePieces.Length; j++) {
 			currentPuzzlePieces.Add (puzzlePieces [j]);
 		}
 
-		for (int i = 0; i < offPositions.Length; i++) {
-			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (pieceSet [i]);
+		Debug.Log ("puzzlePieces " + puzzlePieces.Length);
+
+		for (int i = 0; i < 6; i++) {
+			Debug.Log ("check " + i + " " + puzzlePieces.Length);
+			int positionNumber = puzzlePieces [i].GetComponent<PuzzlePiece> ().positionNumber;
+			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (pieceSet [positionNumber]);
 		}
 
 		Invoke ("BreakUpPuzzle", 2f);

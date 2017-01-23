@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class PuzzlePiece : MonoBehaviour
 {
-	public PuzzleGame puzzleGame;
+	private PuzzleGame puzzleGame;
 	public int positionNumber;
 
 	private GameObject puzzlePiece;
@@ -20,8 +20,11 @@ public class PuzzlePiece : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		GameObject pGameObj = GameObject.FindGameObjectWithTag ("PuzzleGame");
+		puzzleGame = pGameObj.GetComponent<PuzzleGame> ();
 		correctPosition = gameObject.GetComponent<Transform> ().position;
 	}
+
 
 	public void InitPiece (GameObject piece)
 	{
@@ -31,10 +34,12 @@ public class PuzzlePiece : MonoBehaviour
 
 	void LateUpdate ()
 	{
+		
 		Animator anim = GetComponent<Animator> ();
 		if (anim) {
 			anim.GetComponent<SpriteRenderer> ().sprite = puzzlePiece.GetComponent<SpriteRenderer> ().sprite;
 		}
+
 	}
 
 	// Update is called once per frame
@@ -46,7 +51,6 @@ public class PuzzlePiece : MonoBehaviour
 		}
 
 		if (isResetting && transform.position == offPosition) {
-			Debug.Log ("Done resetting ******* " + offPosition);
 			isResetting = false;
 		}
 

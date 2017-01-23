@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: db7b83ed877cc4a1c97c3ddf759b9eaf
-timeCreated: 1484284127
+guid: 9239d728c16a941c1b10ce368f7017c7
+timeCreated: 1485034000
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: underwater_70
-    21300002: water1_70
-    21300004: water2_70
-    21300006: water3_70
-    21300008: water4_70
-    21300010: water5_70
-    21300012: water6_70
+    21300002: underwater_cutout
+    21300004: water1_70
+    21300006: water2_70
+    21300008: water3_70
+    21300010: water4_70
+    21300012: water5_70
+    21300014: water6_70
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -72,7 +73,7 @@ TextureImporter:
       name: underwater_70
       rect:
         serializedVersion: 2
-        x: 1
+        x: 994
         y: 1282
         width: 990
         height: 765
@@ -82,11 +83,24 @@ TextureImporter:
       outline: []
       tessellationDetail: -1
     - serializedVersion: 2
+      name: underwater_cutout
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1281
+        width: 991
+        height: 766
+      alignment: 9
+      pivot: {x: 0.5015136, y: 0.49804178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
       name: water1_70
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1111
+        x: 799
+        y: 454
         width: 434
         height: 409
       alignment: 9
@@ -98,8 +112,8 @@ TextureImporter:
       name: water2_70
       rect:
         serializedVersion: 2
-        x: 1566
-        y: 1522
+        x: 1567
+        y: 755
         width: 457
         height: 525
       alignment: 9
@@ -111,8 +125,8 @@ TextureImporter:
       name: water3_70
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1198
+        x: 352
+        y: 847
         width: 445
         height: 432
       alignment: 9
@@ -125,7 +139,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 91
+        y: 792
         width: 349
         height: 487
       alignment: 9
@@ -137,8 +151,8 @@ TextureImporter:
       name: water5_70
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1632
+        x: 994
+        y: 865
         width: 571
         height: 415
       alignment: 9
@@ -151,7 +165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 580
+        y: 224
         width: 355
         height: 529
       alignment: 9
