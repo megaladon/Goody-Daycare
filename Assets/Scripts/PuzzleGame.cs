@@ -21,7 +21,7 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject[] safariPieces;
 	public GameObject[] firefighterPieces;
 
-	private int puzzleNumber = 3;
+	private int puzzleNumber = 1;
 	private List<GameObject> currentPuzzlePieces;
 
 
@@ -97,6 +97,8 @@ public class PuzzleGame : MonoBehaviour
 
 	void BreakUpPuzzle ()
 	{
+		ShapesGame.ShuffleArray (offPositions);
+
 		for (int i = 0; i < offPositions.Length; i++) {
 			puzzlePieces [i].GetComponent<PuzzlePiece> ().SetOffPosition (offPositions [i].GetComponent<Transform> ().position);
 			puzzlePieces [i].GetComponent<PuzzlePiece> ().ResetPiece ();
