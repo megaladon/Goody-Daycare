@@ -19,8 +19,9 @@ public class PuzzleGame : MonoBehaviour
 	public GameObject[] beachPieces;
 	public GameObject[] underwaterPieces;
 	public GameObject[] safariPieces;
+	public GameObject[] firefighterPieces;
 
-	private int puzzleNumber = 2;
+	private int puzzleNumber = 3;
 	private List<GameObject> currentPuzzlePieces;
 
 
@@ -60,6 +61,9 @@ public class PuzzleGame : MonoBehaviour
 			break;
 		case 2:
 			pieceSet = safariPieces;
+			break;
+		case 3:
+			pieceSet = firefighterPieces;
 			break;
 		default:
 			pieceSet = beachPieces;
