@@ -139,11 +139,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 307
+        y: 312
         width: 366
-        height: 539
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 534
+      alignment: 9
+      pivot: {x: 0.5, y: 0.497191}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
