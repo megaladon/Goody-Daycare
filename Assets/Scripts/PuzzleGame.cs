@@ -18,16 +18,18 @@ public class PuzzleGame : MonoBehaviour
 
 	public GameObject[] beachPieces;
 	public GameObject[] underwaterPieces;
+	public GameObject[] safariPieces;
 
-	private int puzzleNumber = 1;
+	private int puzzleNumber = 2;
 	private List<GameObject> currentPuzzlePieces;
 
 
 
-	bool isDragging = false;
+	private bool isDragging = false;
 	private GameObject currentPuzzlePiece;
-	float currentPuzzlePieceStart = -2;
-	float draggingZ = 2f;
+	private float currentPuzzlePieceStart = -2;
+	private float draggingZ = 2f;
+	private int puzzlesPlaced = 0;
 
 	// Use this for initialization
 	void Start ()
@@ -56,6 +58,9 @@ public class PuzzleGame : MonoBehaviour
 		case 1:
 			pieceSet = underwaterPieces;
 			break;
+		case 2:
+			pieceSet = safariPieces;
+			break;
 		default:
 			pieceSet = beachPieces;
 			break;
@@ -67,10 +72,8 @@ public class PuzzleGame : MonoBehaviour
 			currentPuzzlePieces.Add (puzzlePieces [j]);
 		}
 
-		Debug.Log ("puzzlePieces " + puzzlePieces.Length);
 
 		for (int i = 0; i < 6; i++) {
-			Debug.Log ("check " + i + " " + puzzlePieces.Length);
 			int positionNumber = puzzlePieces [i].GetComponent<PuzzlePiece> ().positionNumber;
 			puzzlePieces [i].GetComponent<PuzzlePiece> ().InitPiece (pieceSet [positionNumber]);
 		}
@@ -152,9 +155,15 @@ public class PuzzleGame : MonoBehaviour
 
 	private void placePuzzlePiece ()
 	{
+		puzzlesPlaced++;
 		Animator anim = yancy.GetComponentInChildren<Animator> ();
 		if (anim) {
-			anim.SetTrigger ("caAnimation");
+			if (puzzlesPlaced < puzzlePieces.Length) {
+				anim.SetTrigger ("caAnimation");	
+			} else {
+				anim.SetTrigger ("puzzleCompleteAnimation");
+			}
+
 		}
 		currentPuzzlePiece.GetComponent<PuzzlePiece> ().SnapCorrect ();
 		resetPuzzlePieceZ (currentPuzzlePiece, currentPuzzlePieceStart);

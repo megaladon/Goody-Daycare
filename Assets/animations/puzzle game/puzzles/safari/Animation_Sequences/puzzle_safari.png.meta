@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 3f89cd82dc9a142ecad645db10e3574f
+timeCreated: 1485288631
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Puzzle2_Safari_70
+    21300002: Safari1
+    21300004: Safari2
+    21300006: Safari3
+    21300008: Safari4
+    21300010: Safari5
+    21300012: Safari6
+    21300014: safari_cutout
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Puzzle2_Safari_70
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1282
+        width: 990
+        height: 765
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari1
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 446
+        width: 430
+        height: 407
+      alignment: 9
+      pivot: {x: 0.50116277, y: 0.48525798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari2
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 750
+        width: 458
+        height: 530
+      alignment: 9
+      pivot: {x: 0.48362446, y: 0.50566036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 841
+        width: 449
+        height: 435
+      alignment: 9
+      pivot: {x: 0.4988864, y: 0.51954025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 787
+        width: 351
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5156695, y: 0.4969325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari5
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 855
+        width: 567
+        height: 425
+      alignment: 9
+      pivot: {x: 0.50176364, y: 0.49294117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Safari6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 208
+        width: 365
+        height: 540
+      alignment: 9
+      pivot: {x: 0.5260274, y: 0.48981482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: safari_cutout
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1278
+        width: 993
+        height: 769
+      alignment: 9
+      pivot: {x: 0.51158106, y: 0.5013004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
