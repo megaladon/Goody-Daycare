@@ -2,61 +2,92 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class PlayerPrefsManager : MonoBehaviour {
+public class PlayerPrefsManager : MonoBehaviour
+{
 
 	const string MASTER_VOLUME_KEY = "master_volume";
 	const string DIFFICULTY_KEY = "difficulty";
 	const string LEVEL_KEY = "level_unlocked_";
 
-	public static void SetMasterVolum( float volume){
+	const string PUZZZLE_NUMBER_KEY = "puzzle_number";
 
-		if(volume >= 0f && volume <= 1f){
-			PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, volume);
-		}else{
-			Debug.LogError("Master volume out of range");
-		}
-	}
-
-	public static float GetMasterVolume(){
-
-		return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
-	}
-
-	public static void UnlockLevel (int level){
-
-		if(level <= SceneManager.sceneCountInBuildSettings - 1 ){
-			PlayerPrefs.SetInt(LEVEL_KEY + level.ToString(), 1); // use 1 for true
+	public static void IncrementPuzzleNumber ()
+	{
+		int puzzleNumber = GetPuzzleNumber ();
+		if (puzzleNumber < 3) {
+			puzzleNumber++;
 		} else {
-			Debug.LogError("Trying to unlock level not in build order "+level);
+			puzzleNumber = 0;
+		}
+		SetPuzzleNumber (puzzleNumber);
+	}
+
+	public static void SetPuzzleNumber (int puzzleNumber)
+	{
+		PlayerPrefs.SetInt (PUZZZLE_NUMBER_KEY, puzzleNumber);
+	}
+
+	public static int GetPuzzleNumber ()
+	{
+		
+		return PlayerPrefs.GetInt (PUZZZLE_NUMBER_KEY);
+	}
+
+	public static void SetMasterVolum (float volume)
+	{
+
+		if (volume >= 0f && volume <= 1f) {
+			PlayerPrefs.SetFloat (MASTER_VOLUME_KEY, volume);
+		} else {
+			Debug.LogError ("Master volume out of range");
 		}
 	}
 
-	public static bool IsLevelUnlocked(int level){
+	public static float GetMasterVolume ()
+	{
 
-		int levelValue = PlayerPrefs.GetInt (LEVEL_KEY + level.ToString());
+		return PlayerPrefs.GetFloat (MASTER_VOLUME_KEY);
+	}
+
+	public static void UnlockLevel (int level)
+	{
+
+		if (level <= SceneManager.sceneCountInBuildSettings - 1) {
+			PlayerPrefs.SetInt (LEVEL_KEY + level.ToString (), 1); // use 1 for true
+		} else {
+			Debug.LogError ("Trying to unlock level not in build order " + level);
+		}
+	}
+
+	public static bool IsLevelUnlocked (int level)
+	{
+
+		int levelValue = PlayerPrefs.GetInt (LEVEL_KEY + level.ToString ());
 		bool isLevelUnlocked = (levelValue == 1);
 
-		if(level <= SceneManager.sceneCountInBuildSettings - 1 ){
+		if (level <= SceneManager.sceneCountInBuildSettings - 1) {
 			return isLevelUnlocked;
-		}else{
-			Debug.LogError("Trying to query level no in build order");
+		} else {
+			Debug.LogError ("Trying to query level no in build order");
 			return false;
 		}
 
 	}
 
 
-	public static void SetDifficulty(float difficulty){
+	public static void SetDifficulty (float difficulty)
+	{
 		if (difficulty >= 1f && difficulty <= 3f) {
-			PlayerPrefs.SetFloat(DIFFICULTY_KEY, difficulty);
-		}else{
-			Debug.LogError("Difficulty out of range");
+			PlayerPrefs.SetFloat (DIFFICULTY_KEY, difficulty);
+		} else {
+			Debug.LogError ("Difficulty out of range");
 		}
 
 	}
 
-	public static float GetDifficulty(){
-		return PlayerPrefs.GetFloat(DIFFICULTY_KEY);
+	public static float GetDifficulty ()
+	{
+		return PlayerPrefs.GetFloat (DIFFICULTY_KEY);
 	}
 
 }

@@ -43,6 +43,13 @@ public class PuzzleGame : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+
+
+		Debug.Log ("check puzzleNumber " + PlayerPrefsManager.GetPuzzleNumber ());
+
+		puzzleNumber = PlayerPrefsManager.GetPuzzleNumber ();
+		PlayerPrefsManager.IncrementPuzzleNumber ();
+
 		GameObject thisPuzzle = Instantiate (fullPuzzles [puzzleNumber], new Vector3 (6.25f, 2.82f, -2), Quaternion.identity) as GameObject;
 
 		puzzlePieces = GameObject.FindGameObjectsWithTag ("PuzzlePiece");
