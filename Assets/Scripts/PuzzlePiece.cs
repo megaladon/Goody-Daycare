@@ -53,13 +53,14 @@ public class PuzzlePiece : MonoBehaviour
 
 		if (isResetting && transform.position == offPosition) {
 			isResetting = false;
+			puzzleGame.PieceReset ();
 		}
 
 	}
 
 	void OnMouseDown ()
 	{
-		if (!isLocked) {
+		if (!isLocked && puzzleGame.isPuzzleReady) {
 			puzzleGame.startDrag (gameObject);
 			Animator anim = GetComponentInChildren<Animator> ();
 			if (anim) {
@@ -86,7 +87,6 @@ public class PuzzlePiece : MonoBehaviour
 
 	public void ResetPiece ()
 	{
-		Debug.Log ("ResetPiece");
 		isResetting = true;
 		Animator anim = GetComponentInChildren<Animator> ();
 		if (anim) {

@@ -46,10 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackButton.cs" />
      <Compile Include="Assets\Scripts\AnimationEvents.cs" />
      <Compile Include="Assets\Scripts\BabyFunAnimation.cs" />
      <Compile Include="Assets\Scripts\BabyFunGame.cs" />
+     <Compile Include="Assets\Scripts\BackButton.cs" />
      <Compile Include="Assets\Scripts\BubbleBehavior.cs" />
      <Compile Include="Assets\Scripts\BubblesGame.cs" />
      <Compile Include="Assets\Scripts\EaselIcon.cs" />

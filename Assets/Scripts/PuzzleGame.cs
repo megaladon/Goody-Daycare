@@ -5,9 +5,12 @@ using UnityEngine;
 public class PuzzleGame : MonoBehaviour
 {
 	public GameObject yancy;
+	public bool isPuzzleReady = false;
 	private GameObject completedPuzzle;
+	private int puzzlePiecesReady = 0;
 	//public GameObject[] puzzles;
 	private GameObject puzzleOutLine;
+	public LevelManager levelManager;
 	//public GameObject puzzleOutlineHolder;
 	public float puzzleOpacity;
 	public GameObject[] fullPuzzles;
@@ -32,6 +35,11 @@ public class PuzzleGame : MonoBehaviour
 	private float draggingZ = 2f;
 	private int puzzlesPlaced = 0;
 
+	private Renderer outlineRender;
+	private Renderer completedPuzzleRenderer;
+	private bool isFaddingOutline;
+	private Color currentOutlineColor;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -41,15 +49,17 @@ public class PuzzleGame : MonoBehaviour
 		completedPuzzle = GameObject.FindGameObjectWithTag ("CompletedPuzzle");
 		puzzleOutLine = GameObject.FindGameObjectWithTag ("PuzzleOutline");
 
+		// ON game completeion hide all puzzle pieces and the outline then fade in the full puzzle
+
 		//completedPuzzle.GetComponent<SpriteRenderer> ().sprite = puzzles [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
 
-		//puzzleOutlineHolder.GetComponent<SpriteRenderer> ().sprite = puzzleOutLines [puzzleNumber].GetComponent<SpriteRenderer> ().sprite;
-
+		outlineRender = puzzleOutLine.GetComponent<SpriteRenderer> ();
+		currentOutlineColor.a = outlineRender.material.color.a;
 		// Dim the completedPuzzle background
-		Renderer completedPuzzleRenderer = completedPuzzle.GetComponent<Renderer> ();
+		completedPuzzleRenderer = completedPuzzle.GetComponent<Renderer> ();
 		completedPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, puzzleOpacity);
 
-		GameObject[] pieceSet;// = beachPieces;
+		GameObject[] pieceSet;
 
 
 		switch (puzzleNumber) {
@@ -93,6 +103,15 @@ public class PuzzleGame : MonoBehaviour
 			pos.z = draggingZ;//currentPuzzlePiece.GetComponent<Transform> ().position.z - Camera.main.transform.position.z;
 			currentPuzzlePiece.GetComponent<Transform> ().position = Camera.main.ScreenToWorldPoint (pos);
 		}
+
+
+		if (isFaddingOutline) {
+			// Fade in
+			float alphaChange = Time.deltaTime / .5f;
+			currentOutlineColor.a -= alphaChange;
+			outlineRender.material.color = currentOutlineColor;
+		}
+		
 	}
 
 	void BreakUpPuzzle ()
@@ -105,6 +124,13 @@ public class PuzzleGame : MonoBehaviour
 		}
 	}
 
+	public void PieceReset ()
+	{
+		puzzlePiecesReady++;
+		if (puzzlePiecesReady == 6) {
+			isPuzzleReady = true;
+		}
+	}
 
 	public void startDrag (GameObject puzzlePiece)
 	{
@@ -168,6 +194,14 @@ public class PuzzleGame : MonoBehaviour
 				anim.SetTrigger ("caAnimation");	
 			} else {
 				anim.SetTrigger ("puzzleCompleteAnimation");
+				for (int i = 0; i < puzzlePieces.Length; i++) {
+					Renderer r = puzzlePieces [i].GetComponent<Renderer> ();
+					r.material.color = new Color (1.0f, 1.0f, 1.0f, 0f);
+				}
+				isFaddingOutline = true;
+				//outlineRender.material.color = new Color (1.0f, 1.0f, 1.0f, 0f);
+				completedPuzzleRenderer.material.color = new Color (1.0f, 1.0f, 1.0f, 1.0f);
+				Invoke ("endGame", 3.0f);
 			}
 
 		}
@@ -183,6 +217,11 @@ public class PuzzleGame : MonoBehaviour
 		}
 			
 		currentPuzzlePiece.GetComponent<PuzzlePiece> ().ResetPiece ();
+	}
+
+	private void endGame ()
+	{
+		levelManager.LoadLevel ("02 Home");
 	}
 
 	/*

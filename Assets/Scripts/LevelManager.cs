@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
 		Default = 0,
 		Shapes,
 		Bubbles,
-		Concentration
+		Puzzles
 	}
 
 

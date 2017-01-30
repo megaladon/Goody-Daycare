@@ -90,10 +90,10 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_IOS_ON_DEMAND_RESOURCES
 -define:ENABLE_IOS_APP_SLICING
-'Assets/BackButton.cs'
 'Assets/Scripts/AnimationEvents.cs'
 'Assets/Scripts/BabyFunAnimation.cs'
 'Assets/Scripts/BabyFunGame.cs'
+'Assets/Scripts/BackButton.cs'
 'Assets/Scripts/BubbleBehavior.cs'
 'Assets/Scripts/BubblesGame.cs'
 'Assets/Scripts/EaselIcon.cs'
