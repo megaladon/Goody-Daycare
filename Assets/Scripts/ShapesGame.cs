@@ -23,6 +23,7 @@ public class ShapesGame : MonoBehaviour
 	private ShapeBehavior[] shapeSpriteTypes;
 
 	public GameObject[] shapes;
+	public GameObject[] blueShapes;
 	List<Vector3> shapePositions;
 
 	public GameObject kaycee;
@@ -69,7 +70,8 @@ public class ShapesGame : MonoBehaviour
 		correctShapeCount = 0;
 		isRoundOver = false;
 
-		GameObject[] tempShapes = shapes;
+		//GameObject[] tempShapes = shapes;
+		GameObject[] tempShapes = blueShapes;
 
 		ShuffleArray (tempShapes);
 		int caShapeNum = 0;
@@ -96,6 +98,7 @@ public class ShapesGame : MonoBehaviour
 
 		// Show the current CA Shape CURRENT_CA_SHAPE_POSITION
 		GameObject CA = Instantiate (tempShapes [caShapeNum], CURRENT_CA_SHAPE_POSITION, Quaternion.identity) as GameObject;
+		CA.GetComponent<ShapeBehavior> ().InitShape (tempShapes [caShapeNum]);
 		ShapeBehavior nShape = CA.GetComponent<ShapeBehavior> ();
 		nShape.SetCurrentCAShape (true);
 	}
@@ -103,7 +106,9 @@ public class ShapesGame : MonoBehaviour
 	IEnumerator OnPlaceShape (List<GameObject> newShapes, int num, float delayTime)
 	{
 		yield return new WaitForSeconds (delayTime);
-		Instantiate (newShapes [num], shapePositions [num], Quaternion.identity);
+		GameObject obj = Instantiate (newShapes [0], shapePositions [num], Quaternion.identity);
+		obj.GetComponent<ShapeBehavior> ().InitShape (newShapes [num]);
+
 	}
 
 	public void OnShapeClicked (SpriteRenderer clickSprite, GameObject obj)
