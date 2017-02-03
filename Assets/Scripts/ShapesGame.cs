@@ -24,6 +24,9 @@ public class ShapesGame : MonoBehaviour
 
 	public GameObject[] shapes;
 	public GameObject[] blueShapes;
+	public GameObject[] greenShapes;
+	public GameObject[] redShapes;
+	public GameObject[] yellowShapes;
 	List<Vector3> shapePositions;
 
 	public GameObject kaycee;
@@ -71,7 +74,7 @@ public class ShapesGame : MonoBehaviour
 		isRoundOver = false;
 
 		//GameObject[] tempShapes = shapes;
-		GameObject[] tempShapes = blueShapes;
+		GameObject[] tempShapes = yellowShapes;
 
 		ShuffleArray (tempShapes);
 		int caShapeNum = 0;
@@ -186,12 +189,6 @@ public class ShapesGame : MonoBehaviour
 	private void GameOver ()
 	{
 		levelManager.LoadLevel ("02 Home");
-	}
-
-	private void test ()
-	{
-		GameObject[] whatsLeft = GameObject.FindGameObjectsWithTag ("Shape");
-		Debug.Log ("\n what's left " + whatsLeft.Length);
 	}
 
 	private void HandleCorrectShape (Animator anim)
