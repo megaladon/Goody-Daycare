@@ -19,7 +19,6 @@ public class ShapeBehavior : MonoBehaviour
 	public void InitShape (GameObject s)
 	{
 		anim = GetComponentInChildren<Animator> ();
-		Debug.Log ("InitShape " + s + " anim=" + anim);
 		shape = s;
 	}
 
