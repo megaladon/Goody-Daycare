@@ -74,13 +74,13 @@ public class ShapesGame : MonoBehaviour
 
 		shapePositions = new List<Vector3> ();
 		shapePositions.Add (new Vector3 (3.24f, 4f, 0));
-		shapePositions.Add (new Vector3 (4.86f, 4f, 0));
-		shapePositions.Add (new Vector3 (6.54f, 4f, 0));
-		shapePositions.Add (new Vector3 (8.27f, 4f, 0));
-		shapePositions.Add (new Vector3 (3.24f, 2.34f, 0));
-		shapePositions.Add (new Vector3 (4.86f, 2.34f, 0));
-		shapePositions.Add (new Vector3 (6.54f, 2.34f, 0));
-		shapePositions.Add (new Vector3 (8.27f, 2.34f, 0));
+		shapePositions.Add (new Vector3 (4.36f, 4f, 0));
+		shapePositions.Add (new Vector3 (5.54f, 4f, 0));
+		shapePositions.Add (new Vector3 (6.77f, 4f, 0));
+		shapePositions.Add (new Vector3 (3.24f, 2.84f, 0));
+		shapePositions.Add (new Vector3 (4.36f, 2.84f, 0));
+		shapePositions.Add (new Vector3 (5.54f, 2.84f, 0));
+		shapePositions.Add (new Vector3 (6.77f, 2.84f, 0));
 
 		initRound ();
 	}
