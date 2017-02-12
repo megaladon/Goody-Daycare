@@ -12,7 +12,7 @@ public class ShapesGame : MonoBehaviour
 
 	private int MAX_ROUNDS = 5;
 	private int MAX_CORRECT_ANSWERS = 3;
-	private Vector3 CURRENT_CA_SHAPE_POSITION = new Vector3 (0.8f, 3.38f, 0);
+	private Vector3 CURRENT_CA_SHAPE_POSITION = new Vector3 (1.6f, 3.88f, 0);
 
 	private int numberOfCorrectShapes;
 	private int correctShapeCount;
@@ -73,14 +73,14 @@ public class ShapesGame : MonoBehaviour
 		//ShuffleArray (shapeSprites);
 
 		shapePositions = new List<Vector3> ();
-		shapePositions.Add (new Vector3 (3.24f, 4f, 0));
-		shapePositions.Add (new Vector3 (4.36f, 4f, 0));
-		shapePositions.Add (new Vector3 (5.54f, 4f, 0));
-		shapePositions.Add (new Vector3 (6.77f, 4f, 0));
-		shapePositions.Add (new Vector3 (3.24f, 2.84f, 0));
-		shapePositions.Add (new Vector3 (4.36f, 2.84f, 0));
-		shapePositions.Add (new Vector3 (5.54f, 2.84f, 0));
-		shapePositions.Add (new Vector3 (6.77f, 2.84f, 0));
+		shapePositions.Add (new Vector3 (3.74f, 4.5f, 0));
+		shapePositions.Add (new Vector3 (4.86f, 4.5f, 0));
+		shapePositions.Add (new Vector3 (6.04f, 4.5f, 0));
+		shapePositions.Add (new Vector3 (7.27f, 4.5f, 0));
+		shapePositions.Add (new Vector3 (3.74f, 3.34f, 0));
+		shapePositions.Add (new Vector3 (4.86f, 3.34f, 0));
+		shapePositions.Add (new Vector3 (6.04f, 3.34f, 0));
+		shapePositions.Add (new Vector3 (7.27f, 3.34f, 0));
 
 		initRound ();
 	}
