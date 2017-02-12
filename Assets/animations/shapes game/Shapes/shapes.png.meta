@@ -110,8 +110,8 @@ TextureImporter:
       name: Circle_Blue
       rect:
         serializedVersion: 2
-        x: 256
-        y: 345
+        x: 264
+        y: 340
         width: 81
         height: 83
       alignment: 9
@@ -124,7 +124,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 339
+        y: 334
         width: 81
         height: 83
       alignment: 9
@@ -136,8 +136,8 @@ TextureImporter:
       name: Circle_Orange
       rect:
         serializedVersion: 2
-        x: 169
-        y: 342
+        x: 172
+        y: 337
         width: 81
         height: 83
       alignment: 9
@@ -150,7 +150,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 402
+        y: 397
         width: 81
         height: 84
       alignment: 0
@@ -162,8 +162,8 @@ TextureImporter:
       name: Circle_yellow
       rect:
         serializedVersion: 2
-        x: 359
-        y: 346
+        x: 364
+        y: 341
         width: 81
         height: 84
       alignment: 0
@@ -188,8 +188,8 @@ TextureImporter:
       name: Diamond_green
       rect:
         serializedVersion: 2
-        x: 252
-        y: 251
+        x: 255
+        y: 246
         width: 71
         height: 92
       alignment: 9
@@ -202,7 +202,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 309
+        y: 304
         width: 72
         height: 91
       alignment: 9
@@ -214,8 +214,8 @@ TextureImporter:
       name: Diamond_red
       rect:
         serializedVersion: 2
-        x: 339
-        y: 253
+        x: 347
+        y: 248
         width: 72
         height: 91
       alignment: 9
@@ -371,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 488
-        width: 82
-        height: 82
+        y: 568
+        width: 87
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: Octo_Green
       rect:
         serializedVersion: 2
-        x: 383
-        y: 432
-        width: 82
-        height: 82
+        x: 390
+        y: 512
+        width: 87
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +396,10 @@ TextureImporter:
       name: Octo_Orange
       rect:
         serializedVersion: 2
-        x: 275
-        y: 430
-        width: 82
-        height: 82
+        x: 298
+        y: 509
+        width: 87
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: Octo_Red
       rect:
         serializedVersion: 2
-        x: 172
-        y: 427
-        width: 82
-        height: 82
+        x: 190
+        y: 506
+        width: 87
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +422,10 @@ TextureImporter:
       name: Octo_Yellow
       rect:
         serializedVersion: 2
-        x: 85
-        y: 424
-        width: 82
-        height: 82
+        x: 90
+        y: 502
+        width: 87
+        height: 87
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,8 +435,8 @@ TextureImporter:
       name: Rectangle_blue
       rect:
         serializedVersion: 2
-        x: 442
-        y: 320
+        x: 167
+        y: 225
         width: 67
         height: 110
       alignment: 9
@@ -448,8 +448,8 @@ TextureImporter:
       name: Rectangle_green
       rect:
         serializedVersion: 2
-        x: 167
-        y: 230
+        x: 75
+        y: 222
         width: 67
         height: 110
       alignment: 9
@@ -461,8 +461,8 @@ TextureImporter:
       name: Rectangle_Orange
       rect:
         serializedVersion: 2
-        x: 1
-        y: 197
+        x: 421
+        y: 229
         width: 66
         height: 110
       alignment: 9
@@ -474,8 +474,8 @@ TextureImporter:
       name: Rectangle_red
       rect:
         serializedVersion: 2
-        x: 413
-        y: 209
+        x: 328
+        y: 137
         width: 66
         height: 109
       alignment: 9
@@ -487,8 +487,8 @@ TextureImporter:
       name: Rectangle_yellow
       rect:
         serializedVersion: 2
-        x: 75
-        y: 228
+        x: 1
+        y: 193
         width: 67
         height: 109
       alignment: 9
@@ -501,7 +501,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 87
-        y: 508
+        y: 419
         width: 83
         height: 81
       alignment: 9
@@ -514,7 +514,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 572
+        y: 483
         width: 84
         height: 83
       alignment: 9
@@ -526,8 +526,8 @@ TextureImporter:
       name: Square_orange
       rect:
         serializedVersion: 2
-        x: 390
-        y: 516
+        x: 387
+        y: 427
         width: 83
         height: 83
       alignment: 9
@@ -539,8 +539,8 @@ TextureImporter:
       name: Square_red
       rect:
         serializedVersion: 2
-        x: 298
-        y: 514
+        x: 279
+        y: 425
         width: 83
         height: 82
       alignment: 9
@@ -552,8 +552,8 @@ TextureImporter:
       name: Square_yellow
       rect:
         serializedVersion: 2
-        x: 190
-        y: 511
+        x: 179
+        y: 422
         width: 83
         height: 82
       alignment: 9
