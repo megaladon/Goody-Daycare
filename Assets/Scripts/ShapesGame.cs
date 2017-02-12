@@ -18,6 +18,7 @@ public class ShapesGame : MonoBehaviour
 	private int correctShapeCount;
 	private int caShapeIndex;
 	private bool isRoundOver;
+	private bool areShapesActive;
 	private Sprite caSprite;
 	private ShapeBehavior[] shapeSprites;
 	private ShapeBehavior[] shapeSpriteTypes;
@@ -91,11 +92,9 @@ public class ShapesGame : MonoBehaviour
 		numberOfCorrectShapes = 3; //Random.Range (0, MAX_CORRECT_ANSWERS);
 		correctShapeCount = 0;
 		isRoundOver = false;
+		areShapesActive = true;
 
 		//GameObject[] tempShapes = shapes;
-
-		//	gameType gt = gameType.randomShapes;
-		//Debug.Log ("what is this?" + typeof(gameType));
 		GameObject[] tempShapes = getShapeSet (gameType.randomShapes);//  yellowShapes;
 
 
@@ -140,12 +139,13 @@ public class ShapesGame : MonoBehaviour
 	public void OnShapeClicked (SpriteRenderer clickSprite, GameObject obj)
 	{
 		Animator anim = obj.GetComponentInChildren<Animator> ();
+		obj.GetComponentInChildren<ShapeBehavior> ().isShapeActive = false;
 		if (clickSprite.sprite == caSprite) {
 			
 			//anim.SetTrigger ("incorrect");
 			HandleCorrectShape (anim);
 			KayceeCA ();
-		} else {
+		} else if (areShapesActive) {
 			HandleIncorrectShape (anim);
 			KayceeWA ();
 
@@ -164,7 +164,6 @@ public class ShapesGame : MonoBehaviour
 		}
 
 		if (correctShapeCount == numberOfCorrectShapes && !isRoundOver) {
-			Debug.Log ("\n YOU GOT ALL THE SHAPES");
 			isRoundOver = true;
 			// figure out how many shapes are left and get rid of them
 			Invoke ("RemoveRemainingShapes", 1.0f);
@@ -217,6 +216,9 @@ public class ShapesGame : MonoBehaviour
 	private void HandleCorrectShape (Animator anim)
 	{
 		correctShapeCount++;
+		if (correctShapeCount == numberOfCorrectShapes) {
+			areShapesActive = false;
+		}
 		anim.SetTrigger ("startOutro");
 	}
 

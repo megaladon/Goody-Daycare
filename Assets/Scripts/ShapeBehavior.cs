@@ -9,11 +9,12 @@ public class ShapeBehavior : MonoBehaviour
 	private bool isCurrentCAShape = false;
 	private GameObject shape;
 	private Animator anim;
+	public bool isShapeActive;
 
 	// Use this for initialization
 	void Start ()
 	{
-		
+		isShapeActive = true;
 	}
 
 	public void InitShape (GameObject s)
@@ -45,7 +46,7 @@ public class ShapeBehavior : MonoBehaviour
 
 		if (isCurrentCAShape) {
 			Debug.Log ("This is The current shape");
-		} else {
+		} else if (isShapeActive) {
 			ShapesGame shapeGame = GameObject.FindObjectOfType<ShapesGame> ();
 			shapeGame.OnShapeClicked (this.GetComponentInChildren<SpriteRenderer> (), gameObject);	
 		}
@@ -68,6 +69,11 @@ public class ShapeBehavior : MonoBehaviour
 			shapesGame.OutroDone (gameObject);	
 		}
 
+	}
+
+	public void IncorrectDone ()
+	{
+		isShapeActive = true;
 	}
 
 	public void SetCurrentCAShape (bool bol)
