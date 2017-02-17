@@ -1,0 +1,810 @@
+fileFormatVersion: 2
+guid: c8015bc970e8142d391df50be8c6e842
+timeCreated: 1487207048
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: train_fireworks0001
+    21300002: train_fireworks0002
+    21300004: train_fireworks0003
+    21300006: train_fireworks0004
+    21300008: train_fireworks0005
+    21300010: train_fireworks0006
+    21300012: train_fireworks0007
+    21300014: train_fireworks0008
+    21300016: train_fireworks0009
+    21300018: train_fireworks0010
+    21300020: train_fireworks0011
+    21300022: train_fireworks0012
+    21300024: train_fireworks0013
+    21300026: train_fireworks0014
+    21300028: train_fireworks0015
+    21300030: train_fireworks0016
+    21300032: train_fireworks0017
+    21300034: train_fireworks0018
+    21300036: train_fireworks0019
+    21300038: train_fireworks0020
+    21300040: train_fireworks0021
+    21300042: train_fireworks0022
+    21300044: train_fireworks0023
+    21300046: train_fireworks0024
+    21300048: train_fireworks0025
+    21300050: train_fireworks0026
+    21300052: train_fireworks0027
+    21300054: train_fireworks0028
+    21300056: train_fireworks0029
+    21300058: train_fireworks0030
+    21300060: train_fireworks0031
+    21300062: train_fireworks0032
+    21300064: train_fireworks0033
+    21300066: train_fireworks0034
+    21300068: train_fireworks0035
+    21300070: train_fireworks0036
+    21300072: train_fireworks0037
+    21300074: train_fireworks0038
+    21300076: train_fireworks0039
+    21300078: train_fireworks0040
+    21300080: train_fireworks0041
+    21300082: train_fireworks0042
+    21300084: train_fireworks0043
+    21300086: train_fireworks0044
+    21300088: train_fireworks0045
+    21300090: train_fireworks0046
+    21300092: train_fireworks0047
+    21300094: train_fireworks0048
+    21300096: train_fireworks0049
+    21300098: train_fireworks0050
+    21300100: train_fireworks0051
+    21300102: train_fireworks0052
+    21300104: train_fireworks0053
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: train_fireworks0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 593
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0002
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 590
+        width: 327
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8914729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0003
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 463
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 593
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0005
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 465
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0006
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 462
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 327
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.88461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0008
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 591
+        width: 327
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8984375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 444
+        width: 327
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7823129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0010
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 291
+        width: 327
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7615894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 327
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7419355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0012
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 451
+        width: 327
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.71875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 327
+        height: 152
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7565789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0014
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 444
+        width: 327
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.71875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0015
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 606
+        width: 327
+        height: 164
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7012195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0016
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 613
+        width: 327
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0017
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 593
+        width: 327
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0018
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 760
+        width: 327
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6886228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0019
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1144
+        width: 327
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5299539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0020
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 780
+        width: 327
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6647399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0021
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 772
+        width: 327
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6182796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0022
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 955
+        width: 327
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61497325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0023
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 960
+        width: 327
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6084656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0024
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1151
+        width: 327
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5609756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0025
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 721
+        width: 327
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5502392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0026
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 936
+        width: 327
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5399061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0027
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 934
+        width: 327
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5399061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0028
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 721
+        width: 327
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5450237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 721
+        width: 327
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5399061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0030
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 929
+        width: 327
+        height: 216
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5324074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0031
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1151
+        width: 327
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5373832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0032
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1149
+        width: 327
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5299539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0033
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1371
+        width: 327
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5275229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0034
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1592
+        width: 327
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5156951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0035
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 932
+        width: 327
+        height: 217
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5299539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0036
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1151
+        width: 327
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5275229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0037
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1147
+        width: 327
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5275229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1367
+        width: 327
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5251142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0039
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1591
+        width: 327
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51339287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1588
+        width: 327
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50660795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0041
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1368
+        width: 327
+        height: 221
+      alignment: 9
+      pivot: {x: 0.5, y: 0.520362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0042
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1363
+        width: 327
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.518018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0043
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1367
+        width: 327
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5156951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0044
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1591
+        width: 327
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51339287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0045
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1588
+        width: 327
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0046
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1818
+        width: 327
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5021834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1817
+        width: 327
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0048
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1818
+        width: 327
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5021834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0049
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1358
+        width: 327
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0050
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1587
+        width: 327
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5021834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0051
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1817
+        width: 327
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0052
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1817
+        width: 327
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_fireworks0053
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1817
+        width: 327
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

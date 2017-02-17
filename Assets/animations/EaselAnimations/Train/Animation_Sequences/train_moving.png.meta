@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: 8cee661d3737b4e6086fdabb6236e5d7
+timeCreated: 1487208706
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: train_moving0001
+    21300002: train_moving0002
+    21300004: train_moving0003
+    21300006: train_moving0004
+    21300008: train_moving0005
+    21300010: train_moving0006
+    21300012: train_moving0007
+    21300014: train_moving0008
+    21300016: train_moving0009
+    21300018: train_moving0010
+    21300020: train_moving0011
+    21300022: train_moving0012
+    21300024: train_moving0013
+    21300026: train_moving0014
+    21300028: train_moving0015
+    21300030: train_moving0016
+    21300032: train_moving0017
+    21300034: train_moving0018
+    21300036: train_moving0019
+    21300038: train_moving0020
+    21300040: train_moving0021
+    21300042: train_moving0022
+    21300044: train_moving0023
+    21300046: train_moving0024
+    21300048: train_moving0025
+    21300050: train_moving0026
+    21300052: train_moving0027
+    21300054: train_moving0028
+    21300056: train_moving0029
+    21300058: train_moving0030
+    21300060: train_moving0031
+    21300062: train_moving0032
+    21300064: train_moving0033
+    21300066: train_moving0034
+    21300068: train_moving0035
+    21300070: train_moving0036
+    21300072: train_moving0037
+    21300074: train_moving0038
+    21300076: train_moving0039
+    21300078: train_moving0040
+    21300080: train_moving0041
+    21300082: train_moving0042
+    21300084: train_moving0043
+    21300086: train_moving0044
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: train_moving0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1600
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0002
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1600
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0003
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1600
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1470
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0005
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1343
+        width: 329
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0006
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1297
+        width: 329
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0007
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1429
+        width: 329
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0008
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1426
+        width: 329
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52666664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1889
+        width: 329
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0010
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1889
+        width: 329
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0011
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1890
+        width: 329
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0012
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1578
+        width: 329
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0013
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1731
+        width: 329
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0014
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1577
+        width: 329
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0015
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1732
+        width: 329
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1730
+        width: 329
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0017
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1889
+        width: 329
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0018
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1889
+        width: 329
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0019
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1730
+        width: 329
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0020
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1320
+        width: 329
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0021
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1216
+        width: 329
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0022
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1133
+        width: 328
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.58518517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0023
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1005
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5030581, y: 0.6269841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1054
+        width: 327
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5030581, y: 0.6269841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0025
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1035
+        width: 328
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.6076923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0026
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 917
+        width: 326
+        height: 144
+      alignment: 9
+      pivot: {x: 0.50460124, y: 0.5486111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0027
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1167
+        width: 328
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.5231788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0028
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1145
+        width: 328
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.52666664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0029
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1270
+        width: 328
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.512987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0030
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1182
+        width: 328
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.50641024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0031
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1063
+        width: 328
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.5231788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0032
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1022
+        width: 326
+        height: 158
+      alignment: 9
+      pivot: {x: 0.50460124, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0033
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 897
+        width: 326
+        height: 155
+      alignment: 9
+      pivot: {x: 0.50460124, y: 0.5096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0034
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1576
+        width: 329
+        height: 153
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5163399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0035
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1730
+        width: 329
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0036
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 989
+        width: 327
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5030581, y: 0.512987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0037
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1733
+        width: 329
+        height: 154
+      alignment: 9
+      pivot: {x: 0.5, y: 0.512987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0038
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1889
+        width: 329
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0039
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1182
+        width: 328
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5015244, y: 0.50318474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0040
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1341
+        width: 329
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62204725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0041
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1470
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0042
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1470
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0043
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1447
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: train_moving0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1340
+        width: 329
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
