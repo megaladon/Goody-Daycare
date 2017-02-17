@@ -1,7 +1,6 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
-- Assets/animations/EaselAnimations/Dog/Animation_Sequences/dog.tpsheet
 - Assets/animations/EaselAnimations/FireTruck/Animation_Sequences/fireTruck.tpsheet
 - Assets/animations/EaselAnimations/Lion/Animation_Sequences/lion.tpsheet
 - Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.tpsheet
@@ -18,7 +17,6 @@ tpsheetFileNames:
 - Assets/animations/shapes game/Shapes/shapes.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
-- Assets/animations/EaselAnimations/Dog/Animation_Sequences/dog.png
 - Assets/animations/EaselAnimations/FireTruck/Animation_Sequences/fireTruck.png
 - Assets/animations/EaselAnimations/Lion/Animation_Sequences/lion.png
 - Assets/animations/EaselAnimations/ShoolBus/Animation_Sequences/schoolBus.png
@@ -35,7 +33,6 @@ textureFileNames:
 - Assets/animations/shapes game/Shapes/shapes.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
-- 
 - 
 - 
 - 
